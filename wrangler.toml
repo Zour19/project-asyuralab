@@ -1,0 +1,17 @@
+name = "my-photographer-website"
+compatibility_date = "2026-01-01"
+
+# Replace with your Cloudflare Account ID
+account_id = "<YOUR_ACCOUNT_ID>"
+
+# D1 database bindings (example)
+[[d1_databases]]
+binding = "D1_DATABASE"
+database = "my_photographer_db"
+
+# R2 buckets (example)
+[[r2_buckets]]
+binding = "MY_R2"
+bucket_name = "my-photographer-assets"
+
+# If you're using Pages with Functions, add build settings or leave default
