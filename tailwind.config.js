@@ -11,6 +11,12 @@ module.exports = {
     extend: {
       colors: {
         ivory: '#FFFFF0',
+        bone: '#FBF9F6',
+        brand: '#0b6cf6'
+      },
+      fontFamily: {
+        sans: ['Inter', 'ui-sans-serif', 'system-ui'],
+        heading: ['Playfair Display', 'serif'],
       },
     },
   },
