@@ -1,15 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Playfair+Display:wght@400;700&display=swap');
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Playfair+Display:wght@400;700&display=swap');
+
 :root {
-  --color-ivory: #FFFFF0;
-  --color-bone: #FBF9F6;
-  --color-text: #1F2937;
-  --color-muted: #6B7280;
-  --color-brand: #0b6cf6;
+  --color-ivory: #FFFFF0; /* from PDF */
+  --color-brand: #1F2937; /* primary text/brand color per PDF */
 }
 
 html, body, #__next {
@@ -18,7 +15,7 @@ html, body, #__next {
 
 body {
   background-color: var(--color-ivory);
-  color: var(--color-text);
+  color: var(--color-brand);
   font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
