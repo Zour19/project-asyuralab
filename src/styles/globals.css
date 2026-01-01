@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body, #__next {
+  height: 100%;
+}
+body {
+  background-color: #FFFFF0; /* ivory */
+  color: #1F2937; /* gray-800 */
+  @apply font-sans;
+}
+
+/* Touch-friendly: make interactive elements comfortably large */
+button, a {
+  min-height: 44px;
+  padding: 0.5rem 1rem;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
