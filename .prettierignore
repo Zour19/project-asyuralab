@@ -1,0 +1,32 @@
+# Prettier Config
+.prettierrc.json
+.prettierignore
+
+# ESLint Config
+.eslintrc.json
+
+# Build & Cache
+.next/
+out/
+dist/
+build/
+
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Development
+.env.local
+.env.*.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
