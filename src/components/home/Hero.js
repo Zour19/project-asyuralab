@@ -3,41 +3,43 @@
 import Link from 'next/link';
 
 export default function HomeHero() {
+  const img = 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=1000';
+
   return (
-    <section className="bg-gradient-to-r from-gray-900 to-gray-800 text-white py-20">
+    <section className="bg-[#FAF9F6] text-[#1A1A1A] py-20">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
           {/* Text Content */}
           <div>
-            <h1 className="text-5xl md:text-6xl font-bold mb-6">
-              Capturing Moments, Creating Memories
+            <h1 className="text-4xl md:text-5xl font-semibold mb-6 font-serif">
+              Capturing moments that feel true
             </h1>
-            <p className="text-xl text-gray-300 mb-8 leading-relaxed">
-              Professional photographer specializing in portrait, wedding, and event photography.
-              Every shot tells a story.
+            <p className="text-lg mb-8 leading-relaxed text-opacity-90">
+              I focus on honest documentation — quiet moments, natural light, and fleeting expressions.
             </p>
             <div className="flex flex-wrap gap-4">
-              <Link 
+              <Link
                 href="/portfolio"
-                className="bg-white text-gray-900 px-8 py-3 rounded-lg font-semibold hover:bg-gray-100 transition"
+                className="text-[#1A1A1A] border-b-2 border-transparent hover:border-[#1A1A1A] pb-1 transition"
               >
                 View Portfolio
               </Link>
-              <Link 
+              <Link
                 href="/contact"
-                className="border-2 border-white text-white px-8 py-3 rounded-lg font-semibold hover:bg-white hover:text-gray-900 transition"
+                className="text-[#1A1A1A] border-b-2 border-transparent hover:border-[#1A1A1A] pb-1 transition"
               >
-                Book Now
+                Contact
               </Link>
             </div>
           </div>
 
           {/* Hero Image Placeholder */}
-          <div className="bg-gray-700 rounded-lg h-96 flex items-center justify-center">
-            <div className="text-center">
-              <div className="text-6xl mb-4">📷</div>
-              <p className="text-gray-300">Hero Image</p>
-            </div>
+          <div className="rounded-lg h-72 md:h-96 overflow-hidden">
+            <img
+              src={img}
+              alt="Hero"
+              className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-500"
+            />
           </div>
         </div>
       </div>

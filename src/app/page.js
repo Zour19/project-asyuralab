@@ -1,6 +1,6 @@
 import HomeHero from '@/components/home/Hero';
 import HomeFeatures from '@/components/home/Features';
-import HomeGalleryPreview from '@/components/home/GalleryPreview';
+import HomeGalleryPreview from '@/components/home/HomeGalleryPreview';
 import HomeCTA from '@/components/home/CTA';
 
 export const metadata = {

@@ -1,4 +1,4 @@
-"use client";
+'use client';
 
 export default function HomeGalleryPreview() {
   const img = 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=1000';
@@ -20,5 +20,5 @@ export default function HomeGalleryPreview() {
         </div>
       </div>
     </section>
-  );
+  )
 }

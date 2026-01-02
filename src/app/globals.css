@@ -18,7 +18,13 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #f9fafb;
+  background-color: #FAF9F6; /* Off-white brand background */
+  color: #1A1A1A; /* Charcoal text */
+}
+
+/* Serif utility for headings/quotes */
+.font-serif {
+  font-family: 'Playfair Display', Georgia, 'Times New Roman', serif;
 }
 
 code {
